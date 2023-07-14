@@ -6,4 +6,4 @@
 - нейминг по методологии БЭМ
 - сайт корректно отображается в разных браузерах и на разных платформах
 
-![1920](https://github.com/doctorveb292/w-wave-radio-vaer.1/raw/main/Desktop.png)
+![1920](https://github.com/doctorveb292/w-wave-radio-ver.1/raw/main/Desktop.png)
