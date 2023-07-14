@@ -1,0 +1,2033 @@
+
+@media (max-width: 1680px) {
+
+    .container {
+        padding: 0 100px;
+    }
+
+    .header__container {
+        max-width: 1680px;
+        padding: 0 100px;
+    }
+
+    .broadcasts__container {
+        max-width: 1680px;
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 1281px) {
+
+    .container {
+        max-width: 1025px;
+    }
+
+    .header {
+        padding: 0;
+        border-bottom: 1px solid var(--light-gray-color);
+    }
+
+    .header__container {
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        padding-top: 31px;
+        padding-left: 100px;
+        padding-bottom: 29px;
+    }
+
+    .header__nav {
+        margin-right: 0;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 22px;
+        padding-bottom: 19px;
+        width: 100%;
+        order: 3;
+        border-top: 1px solid var(--light-gray-color);
+    }
+
+    .header-btn {
+        padding-top: 5px;
+        padding-right: 98px;
+    }
+
+    .nav-list {
+        gap: 105.25px;
+    }
+
+    .nav-item:last-child {
+        margin-right: 0;
+    }
+
+    .hero {
+        padding-top: 83px;
+        min-height: 443px;
+    }
+
+    .hero__container {
+        align-items: flex-start;
+    }
+
+    .hero-content-right {
+        padding-top: 10px;
+    }
+
+    .hero-content-heading {
+        padding: 0;
+    }
+
+    .hero-content-text {
+        max-width: 539px;
+        margin-bottom: 20px;
+    }
+
+    .podcasts {
+        padding-top: 95px;
+    }
+
+    .podcasts__heading {
+        margin-bottom: 29px;
+    }
+
+    .podcasts-descr {
+        padding-top: 41px;
+    }
+
+    .broadcasts {
+        padding-top: 95px;
+    }
+
+    .broadcast-content {
+        align-items: flex-start;
+    }
+
+    .broadcast-content-right {
+        padding-top: 13px;
+    }
+
+    .broadcast-right-list {
+        max-width: 540px;
+    }
+
+    .broadcast-list-item {
+        flex: 1 1 calc((100% / 2) - var(--gap));
+    }
+
+    .broadcast-item-content {
+        padding-top: 21px;
+        padding-left: 15px;
+    }
+
+    .broadcast-name {
+        margin-bottom: 3px;
+    }
+
+    .broadcast-left-descr {
+        margin-bottom: 0;
+    }
+
+    .broadcast-left-btn {
+        margin-bottom: 11px;
+    }
+
+    .guests {
+        padding-bottom: 93px;
+    }
+
+    .guests__heading {
+        margin-bottom: 13px;
+    }
+
+    .guests-list-item:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .guests-about {
+        max-width: 536px;
+    }
+
+    .guests-list-item {
+        max-width: 824px;
+    }
+
+    .guests-list-img {
+        display: block;
+    }
+
+    .guests-text {
+        max-width: 362px;
+    }
+
+    .playlists {
+        min-height: 895px;
+    }
+
+    .playlists-content {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .playlists__disclaimer {
+        max-width: 100%;
+    }
+
+    .playlists-list {
+        max-width: 826px;
+        padding-top: 14px;
+    }
+
+    .playlists-list-item {
+        flex: 1 1 calc((100% / 3) - (var(--gap) * 2));
+        max-width: initial;
+        min-height: 112px;
+    }
+
+    .playlists-card {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .playlists-item-content {
+        padding-top: 39px;
+        padding-left: 9px;
+        width: 56%;
+    }
+
+    .playlists-item-country {
+        left: 0;
+    }
+
+    .shop {
+        padding-top: 95px;
+    }
+
+    .shop__heading {
+        background-position: bottom left;
+    }
+
+    .shop-item-descr {
+        max-width: 397px;
+        min-height: 635px;
+    }
+
+    .shop-item-pictures {
+        padding-top: 121px;
+    }
+
+    .shop-item-marker {
+        top: 116px;
+        left: 0px;
+    }
+
+    .about-text, 
+    .about-title {
+        max-width: 539px;
+    }
+
+    .about-descr {
+        background-image: url(../img/Dawnabout-svg-2-1920.svg);
+    }
+
+    .about-content {
+        gap: 29px;
+    }
+
+    .about-staff-item {
+        max-width: initial;
+        flex: 1 1 calc((100% / 2) - var(--gap));
+    }
+
+    .about-item-descr {
+        max-width: 397px;
+    }
+
+    .about-item-img {
+        display: block;
+    }
+
+    .about-textarea {
+        margin-bottom: 24px;
+        width: 824px;
+    }
+
+    .about-input-1, 
+    .about-input-2 {
+        padding: 25px 32px;
+        width: 397px;
+    }
+
+    .footer__top {
+        padding-bottom: 75px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 993px) {
+
+    .container {
+        max-width: 992px;
+        padding: 0 114px;
+    }
+
+    .header__container {
+        max-width: 992px;
+        padding: 0;
+    }
+
+    .header__logo {
+        padding-left: 114px;
+        padding-bottom: 29px;
+        padding-top: 32px;
+    }
+
+    .header-btn {
+        padding-right: 114px;
+    }
+
+    .header__nav {
+        padding-left: 114px;
+        padding-right: 114px;
+        padding-top: 20px;
+    }
+
+    .nav-list {
+        gap: 54px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .hero-content-left {
+        display: none;
+    }
+
+    .podcasts {
+        min-height: 1595px;
+    }
+
+    .podcasts__heading {
+        margin-bottom: 30px;
+    }
+
+    .podcasts-list-item {
+        flex: 1 1 100%;
+    }
+    .podcasts-descr {
+        padding-top: 40px;
+    }
+
+    .broadcasts {
+        padding-top: 96px;
+        padding-bottom: 28px;
+        min-height: 1293px;
+    }
+
+    .broadcasts__container::after {
+        position: absolute;
+        content: '';
+        bottom: 128px;
+        width: 100%;
+        border: 1px solid var(--light-gray-color);
+    }
+
+    .broadcasts__container {
+        max-width: 992px;
+        min-height: 1199px;
+        padding: 0;
+    }
+
+    .broadcast-left-heading {
+        padding-left: 114px;
+    }
+
+    .broadcast-content {
+        flex-wrap: wrap;
+    }
+
+    .broadcast-content-right {
+        padding-left: 114px;
+        padding-right: 114px;
+        padding-top: 121px;
+    }
+
+    .broadcast-left-archive {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        padding-left: 144px;
+        padding-top: 30px;
+        margin: 0 auto;
+        max-width: 450px;
+        background-image: url(../img/mic-993.png);
+        background-size: 70px 96px;
+        background-position: left 53px bottom;
+    }
+
+    .broadcast-right-list {
+        margin-bottom: 60px;
+    }
+
+    .broadcast-left-btn {
+        margin-bottom: 7px;
+    }
+
+    .guests {
+        padding-top: 94px;
+    }
+    
+    .guests__heading {
+        margin-bottom: 13px;
+    }
+
+    .guests-item-content {
+        flex-wrap: wrap;
+    }
+
+    .playlists {
+        padding-bottom: 112px;
+    }
+
+    .playlists-list-item {
+        flex: 1 1 calc((100% / 2) - var(--gap));
+    }
+
+    .playlists-item-content {
+        padding-top: 39px;
+        padding-right: 9px;
+    }
+
+    .playlists-item-name {
+        margin-bottom: 4px;
+    }
+
+    .shop {
+        padding-top: 55px;
+        padding-bottom: 93px;
+    }
+
+    .shop-item {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .shop-item-pictures {
+        padding-top: 0;
+    }
+
+    .shop-item-marker {
+        top: 0;
+    }
+
+    .shop-item-descr {
+        max-width: 533px;
+        min-height: 547px;
+    }
+
+    .shop__heading {
+        max-width: 492px;
+    }
+
+    .shop-item-text:nth-child(2n) {
+        margin-bottom: 29px;
+    }
+
+    .shop-item__btn {
+        padding: 22.5px 11.5px;
+    }
+
+    .about {
+        padding-top: 96px;
+        background-image: url(../img/spiral-992.svg), url(../img/dawn-992.svg);
+        background-position: 0% 25.4%, 82.5% 25.4%;
+        background-repeat: no-repeat;
+    }
+
+    .about-content {
+        gap: 30px;
+    }
+
+    .about-descr {
+        padding-bottom: 142px;
+        background-image: none;
+    }
+
+    .about-inputs {
+        flex-wrap: wrap;
+        gap: 27px;
+    }
+ 
+    .about-inputs {
+      width: 540px;
+    }
+
+    .about-textarea,
+    .about-input-1,
+    .about-input-2 {
+        width: 540px;
+    }
+
+    .about-input-1 {
+        margin-bottom: 0;
+    }
+
+    .about-input-2 {
+        margin-bottom: 31px;
+    }
+
+    .about-item-descr {
+        padding-top: 31px;
+    }
+
+    .about-item-name {
+        margin-bottom: 6px;
+    }
+
+    .footer-top-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__logo {
+        margin-bottom: 16px;
+    }
+
+    .footer-content-left {
+        align-items: initial;
+    }
+
+    .footer-left-social {
+        justify-content: center;
+        gap: 27px;
+    }
+
+    .social-1 {
+        width: 30px;
+        height: 24px;
+    }
+
+    .social-2 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-3 {
+        width: 33px;
+        height: 33px;
+    }
+
+    .footer__top {
+        padding-bottom: 48px;
+    }
+
+    .footer-top-nav {
+        max-width: 543px;
+    }
+
+    .footer-content-left {
+        margin: 0 auto 50px;
+    }
+
+    .footer-nav-list {
+        max-width: 543px;
+        column-count: 3;
+        column-gap: 171px;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        -webkit-column-gap: 171px;
+        -moz-column-gap: 171px;
+    }
+
+    .footer-nav-item {
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom {
+        padding-top: 23px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+
+    .container {
+        max-width: 767px;
+        padding: 0 32px;
+    }
+
+    .header__container {
+        max-width: 767px;
+    }
+
+    .header__logo {
+        padding-left: 32px;
+        padding-bottom: 29px;
+    }
+
+    .header-btn {
+        padding-right: 32px;
+    }
+
+    .header__nav {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 20px;
+    }
+
+    .nav-list {
+        gap: 40px;
+        overflow-x: scroll;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .hero {
+        padding-top: 40px;
+    }
+
+    .hero-content-left {
+        display: none;
+    }
+
+    .podcasts {
+        min-height: 1500px;
+        padding-top: 40px;
+    }
+
+    .podcasts__heading {
+        margin-bottom: 30px;
+    }
+
+    .podcasts-list-item {
+        flex: 1 1 100%;
+    }
+    .podcasts-descr {
+        padding-top: 40px;
+    }
+
+    .broadcasts {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .broadcasts__container {
+        max-width: 767px;
+        padding: 0;
+    }
+
+    .broadcasts__container::after {
+        position: absolute;
+        content: '';
+        bottom: 128px;
+        width: 100%;
+        border: 1px solid var(--light-gray-color);
+    }
+
+    .broadcast-content {
+        flex-wrap: wrap;
+    }
+
+    .broadcast-content-right {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 12px;
+    }
+
+    .broadcast-left-heading {
+        padding-left: 32px;
+    }
+
+    .broadcast-right-list {
+        margin-bottom: 40px;
+    }
+
+    .broadcast-left-btn {
+        margin-bottom: 7px;
+    }
+
+    .broadcast-left-archive {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        padding-left: 144px;
+        padding-top: 30px;
+        margin: 0 auto;
+        max-width: 450px;
+        background-image: url(../img/mic-993.png);
+        background-size: 70px 96px;
+        background-position: left 53px bottom;
+    }
+
+    .guests {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .guests__heading {
+        margin-bottom: 13px;
+    }
+
+    .guests-item-content {
+        flex-wrap: wrap;
+    }
+
+    .playlists {
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
+    .playlists-list-item {
+        flex: 1 1 100%;
+    }
+
+    .playlists-item-content {
+        padding-top: 40px;
+        padding-right: 9px;
+    }
+
+    .shop {
+        padding-top: 55px;
+        padding-bottom: 93px;
+    }
+
+    .shop-item {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .shop-item-pictures {
+        padding-top: 0;
+    }
+
+    .shop-item-marker {
+        top: 0;
+    }
+
+    .shop-item-descr {
+        max-width: 533px;
+        min-height: 600px;
+    }
+
+    .shop__heading {
+        max-width: 492px;
+    }
+
+    .shop-item-text:nth-child(2n) {
+        margin-bottom: 29px;
+    }
+
+    .about {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        background-image: url(../img/dawn-992.svg);
+        background-position:82.5% 25.4%;
+        background-repeat: no-repeat;
+    }
+
+    .about-content {
+        gap: 30px;
+    }
+
+    .about-descr {
+        padding-bottom: 142px;
+        background-image: none;
+    }
+
+    .about-item-descr {
+        min-height: 150px;
+    }
+
+    .about-inputs {
+        flex-wrap: wrap;
+        gap: 27px;
+        max-width: 420px;
+    }
+
+    .about-textarea {
+        width: 410px;
+    }
+
+    .about-input-1,
+    .about-input-2 {
+        width: 410px;
+    }
+
+    .about-input-1 {
+        margin-bottom: 0;
+    }
+
+    .about-input-2 {
+        margin-bottom: 31px;
+    }
+
+    .about-item-descr {
+        padding-top: 31px;
+    }
+
+    .about-item-name {
+        margin-bottom: 6px;
+    }
+
+    .footer__top {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .footer-top-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__logo {
+        margin-bottom: 16px;
+    }
+
+    .footer-content-left {
+        align-items: initial;
+    }
+
+    .footer-left-social {
+        justify-content: center;
+        gap: 27px;
+    }
+
+    .social-1 {
+        width: 30px;
+        height: 24px;
+    }
+
+    .social-2 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-3 {
+        width: 33px;
+        height: 33px;
+    }
+
+    .footer-top-nav {
+        max-width: 543px;
+    }
+
+    .footer-content-left {
+        margin: 0 auto 10px;
+    }
+
+    .footer-nav-list {
+        max-width: 543px;
+        column-count: 3;
+        column-gap: 50px;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        -webkit-column-gap: 50px;
+        -moz-column-gap: 50px;
+    }
+
+    .footer-nav-item {
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom {
+        padding-top: 23px;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 576px) {
+
+    .container {
+        max-width: 576px;
+        padding: 0 32px;
+    }
+
+    .header__container {
+        max-width: 576px;
+        justify-content: flex-end;
+    }
+
+    .header__logo {
+        padding-left: 32.5px;
+        padding-bottom: 16px;
+        padding-top: 20px;
+    }
+
+    .header-btn {
+        padding: 2px 30px 0;
+    }
+
+    .header__nav {
+        padding: 7px 32px 5px;
+    }
+
+    .nav-list {
+        gap: 25px;
+        overflow-x: scroll;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .hero {
+        padding-top: 38px;
+        min-height: 336px;
+    }
+
+    .hero-content-left {
+        display: none;
+    }
+
+    .hero-content-right {
+        padding-top: 0;
+    }
+
+    .hero-content-heading {
+        margin-bottom: 5px;
+    }
+
+    .hero-heading-span-1,
+    .hero-heading-span-2{
+        margin: 0;
+        font-size: 32px;
+        line-height: 100%;
+    }
+
+    .hero-content-text {
+        font-size: 14px;
+    }
+
+    .hero-content-btn {
+        padding: 17px 46px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .podcasts {
+        min-height: 1500px;
+        padding-top: 56px;
+        padding-bottom: 53px;
+    }
+
+    .podcasts__heading {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 19px;
+    }
+
+    .podcasts-list-item {
+        flex: 1 1 100%;
+    }
+
+    .podcasts-item-content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .podcasts-covers {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .podcasts-covers-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .podcasts-descr {
+        padding: 30px 64px 30px 16px;
+        align-items: flex-start;
+        min-height: 113px;
+        width: 100%;
+    }
+
+    .podcasts-name {
+        margin-bottom: 5px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .podcasts-leads {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .podcasts-date {
+        top: 0;
+    }
+
+    .broadcasts {
+        padding-top: 56px;
+        padding-bottom: 43px;
+    }
+
+    .broadcasts__container {
+        max-width: 576px;
+        padding: 0;
+    }
+
+    .broadcasts__container::after {
+        position: absolute;
+        content: '';
+        bottom: 146px;
+        width: 100%;
+        border: 1px solid var(--light-gray-color);
+    }
+
+    .broadcast-content {
+        flex-wrap: wrap;
+    }
+
+    .broadcast-left-heading {
+        padding-left: 32px;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .broadcast-right-list {
+        margin-bottom: 25px;
+        max-width: 380px;
+    }
+
+    .broadcast-card {
+        min-width: 113px;
+        min-height: 149px;
+        width: 100%;
+    }
+
+    .broadcast-card picture {
+        max-height: 50px;
+    }
+
+    .broadcast-list-img {
+        width: 100%;
+        height: 50px;
+        object-fit: cover;
+    }
+
+    .broadcast-content-right {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 29px;
+    }
+
+    .broadcast-item-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 9px 8px 9px;
+        min-height: 99px;
+        min-width: 113px;
+        width: 100%;
+    }
+
+    .broadcast-list-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 149px;
+    }
+
+    .broadcast-content-span {
+        min-height: 40px;
+        max-width: 103px;
+    }
+
+    .broadcast-name {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .broadcast-descr {
+        margin-bottom: auto;
+        font-size: 9px;
+        line-height: 9px;
+    }
+
+    .broadcast-link-span {
+        font-size: 12px;
+        line-height: 12px;
+        color: var(--main-btn-color);
+    }
+
+    .broadcast-link svg path {
+        fill: var(--main-btn-color);
+    }
+
+    .broadcast-left-descr {
+        margin-bottom: 6px;
+        max-width: 166px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .broadcast-left-btn {
+        display: flex;
+        width: 110px;
+        height: 35px;
+        padding: 16px 43px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .broadcast-left-archive {
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+        padding-left: 99px;
+        padding-top: 36px;
+        margin: 0 auto;
+        max-width: 450px;
+        background-image: url(../img/mic-993.png);
+        background-size: 77px 105px;
+        background-position: left 10px bottom 10px;
+    }
+
+    .guests {
+        padding-top: 54px;
+        padding-bottom: 55px;
+    }
+    
+    .guests__heading {
+        margin-bottom: 12px;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .guests-title {
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+
+    .guests-about {
+        margin-bottom: 27px;
+        max-width: 512px;
+        font-size: 14px;
+    }
+
+    .guests-text {
+        max-width: 420px;
+    }
+
+    .guests-list-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .guests-item-content {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .guests-list-descr {
+        min-height: 352px;
+    }
+
+    .guests-btn {
+        padding: 7px 13px;
+    }
+
+    .playlists {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+    .playlists__heading {
+        font-size: 24px;
+    }
+
+    .disclaimer-title {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .disclaimer-copyright {
+        font-size: 12px;
+    }
+    
+    .playlists-list {
+        padding-top: 13px;
+        min-height: 100%;
+        max-width: 380px;
+    }
+
+    .playlists-list-item {
+        flex: 1 1 calc((100% / 2) - var(--gap));
+    }
+
+    .playlists-item-img {
+        width: 100%;
+    }
+
+    .playlists-item-country {
+        right: 0;
+        left: inherit;
+    }
+
+    .playlists-card {
+        flex-direction: column;
+        min-width: 113px;
+        min-height: 159px;
+    }
+
+    .playlists-item-content {
+        padding: 9px;
+        min-height: 46px;
+        width: 100%;
+    }
+
+    .playlists-item-name {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 100%;
+    }
+
+    .playlists-item-album {
+        font-size: 9px;
+        line-height: 100%;
+    }
+
+    .shop {
+        padding-top: 54px;
+        padding-bottom: 55px;
+    }
+
+    .shop-item {
+        flex-wrap: wrap;
+        gap: 37px;
+    }
+
+    .shop-item-pictures {
+        padding-top: 0;
+    }
+
+    .shop-item-marker {
+        top: 0;
+        left: 1px;
+    }
+
+    .shop-item-descr {
+        max-width: 420px;
+        min-height: 535px;
+    }
+
+    .shop__heading {
+        padding-bottom: 22px;
+        max-width: 328px;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .shop-item-text {
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .shop-item-text:first-child {
+        margin-bottom: 10px;
+    }
+
+    .shop-item-text:nth-child(2n) {
+        margin-bottom: 8px;
+    }
+
+    .shop-item-cost {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .shop-item__btn {
+        padding: 12px 13.5px;
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .about {
+        padding-top: 56px;
+        padding-bottom: 50px;
+        background-image: none;
+    }
+
+    .about__heading {
+        margin-bottom: 11px;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .about-text, 
+    .about-title {
+        max-width: 420px;
+        font-size: 14px;
+    }
+
+    .about-title {
+        margin-bottom: 4px;
+    }
+
+    .about-content {
+        align-items: center;
+        gap: 25px;
+    }
+
+    .about-descr {
+        padding: 0;
+        background-image: none;
+    }
+
+    .about-item-descr {
+        padding-top: 13px;
+        min-height: 100px;
+    }
+
+    .about-item-name {
+        margin-bottom: 4px;
+        min-height: 36px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .about-item-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .about-forms {
+        padding-top: 5px;
+    }
+
+    .about-inputs {
+        flex-wrap: wrap;
+        gap: 31px;
+        max-width: 256px;
+    }
+
+    .about-textarea {
+        padding: 17px 23px;
+        width: 256px;
+        height: 150px;
+        border-radius: 20px;
+    }
+
+    .about-form textarea::placeholder {
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .about-inputs input::placeholder {
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .about-input-1,
+    .about-input-2 {
+        padding: 8px 23px;
+        width: 256px;
+        min-height: 50px;
+        border-radius: 40px;
+    }
+
+    .about-input-1 {
+        margin-bottom: 0;
+    }
+
+    .about-input-2 {
+        margin-bottom: 30px;
+    }
+
+    .about-input {
+        padding: 17px 44px;
+        margin-bottom: 18px;
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .about-checkbox-text {
+        padding-left: 21px;
+        font-size: 9px;
+        line-height: 100%;
+    }
+    
+    .about-checkbox-text::before,
+    .about-checkbox-text::after {
+        left: 0;
+        bottom: 0;
+        width: 13px;
+        height: 13px;
+    }
+
+    .footer__top {
+        padding-top: 54px;
+        padding-bottom: 33px;
+    }
+
+    .footer-top-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__logo {
+        margin-bottom: 16px;
+    }
+
+    .footer-content-left {
+        margin: 0 auto 10px;
+        align-items: initial;
+        min-height: 151px;
+    }
+
+    .footer-content-right {
+        width: 100%;
+    }
+
+    .footer-left-social {
+        justify-content: center;
+        gap: 26px;
+    }
+
+    .social-1 {
+        width: 30px;
+        height: 24px;
+    }
+
+    .social-2 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-3 {
+        width: 33px;
+        height: 33px;
+    }
+
+    .footer-top-nav {
+        max-width: 543px;
+    }
+
+    .footer-nav-list {
+        column-count: 2;
+        column-gap: 29px;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        -webkit-column-gap: 29px;
+        -moz-column-gap: 29px;
+    }
+
+    .footer-nav-item {
+        margin-bottom: 24px;
+        font-size: 12px;
+        line-height: 100%;
+    }
+
+    .footer-bottom {
+        padding-top: 21px;
+    }
+
+    .footer-bottom-text {
+        font-size: 12px;
+        line-height: 103.336%;
+    }
+}
+
+@media (max-width: 319px) {
+
+    .container {
+        max-width: 320px;
+        padding: 0 15px;
+    }
+
+    .header__container {
+        max-width: 320px;
+        justify-content: flex-end;
+    }
+
+    .header__logo {
+        padding-left: 15px;
+        padding-bottom: 16px;
+        padding-top: 20px;
+    }
+
+    .header-btn {
+        padding: 2px 30px 0;
+    }
+
+    .header__nav {
+        padding: 7px 15px 5px;
+    }
+
+    .nav-list {
+        gap: 25px;
+        overflow-x: scroll;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .hero {
+        padding-top: 38px;
+        min-height: 336px;
+    }
+
+    .hero-content-left {
+        display: none;
+    }
+
+    .hero-content-right {
+        padding-top: 0;
+    }
+
+    .hero-content-heading {
+        margin-bottom: 5px;
+    }
+
+    .hero-heading-span-1,
+    .hero-heading-span-2{
+        margin: 0;
+        font-size: 32px;
+        line-height: 100%;
+    }
+
+    .hero-content-text {
+        font-size: 14px;
+    }
+
+    .hero-content-btn {
+        padding: 17px 46px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .podcasts {
+        min-height: 1500px;
+        padding-top: 56px;
+        padding-bottom: 53px;
+    }
+
+    .podcasts__heading {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 19px;
+    }
+
+    .podcasts-list-item {
+        flex: 1 1 100%;
+    }
+
+    .podcasts-item-content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .podcasts-covers {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .podcasts-covers-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .podcasts-descr {
+        padding: 30px 64px 30px 16px;
+        align-items: flex-start;
+        min-height: 113px;
+        width: 100%;
+    }
+
+    .podcasts-name {
+        margin-bottom: 5px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .podcasts-leads {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .podcasts-date {
+        top: 0;
+    }
+
+    .broadcasts {
+        padding-top: 56px;
+        padding-bottom: 43px;
+    }
+
+    .broadcasts__container {
+        max-width: 320px;
+        padding: 0;
+    }
+
+    .broadcasts__container::after {
+        position: absolute;
+        content: '';
+        bottom: 146px;
+        width: 100%;
+        border: 1px solid var(--light-gray-color);
+    }
+
+    .broadcast-content {
+        flex-wrap: wrap;
+    }
+
+    .broadcast-left-heading {
+        padding-left: 15px;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .broadcast-right-list {
+        margin-bottom: 25px;
+        max-width: 280px;
+    }
+
+    .broadcast-card {
+        min-width: 113px;
+        min-height: 149px;
+        width: 100%;
+    }
+
+    .broadcast-card picture {
+        max-height: 50px;
+    }
+
+    .broadcast-list-img {
+        width: 100%;
+        height: 50px;
+        object-fit: cover;
+    }
+
+    .broadcast-content-right {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 29px;
+    }
+
+    .broadcast-item-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 9px 8px 9px;
+        min-height: 99px;
+        min-width: 113px;
+        width: 100%;
+    }
+
+    .broadcast-list-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 149px;
+    }
+
+    .broadcast-content-span {
+        min-height: 40px;
+        max-width: 103px;
+    }
+
+    .broadcast-name {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .broadcast-descr {
+        margin-bottom: auto;
+        font-size: 9px;
+        line-height: 9px;
+    }
+
+    .broadcast-link-span {
+        font-size: 12px;
+        line-height: 12px;
+        color: var(--main-btn-color);
+    }
+
+    .broadcast-link svg path {
+        fill: var(--main-btn-color);
+    }
+
+    .broadcast-left-descr {
+        margin-bottom: 6px;
+        max-width: 166px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .broadcast-left-btn {
+        display: flex;
+        width: 110px;
+        height: 35px;
+        padding: 16px 43px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .broadcast-left-archive {
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+        padding-left: 99px;
+        padding-top: 36px;
+        margin: 0 auto;
+        max-width: 450px;
+        background-image: url(../img/mic-993.png);
+        background-size: 77px 105px;
+        background-position: left 10px bottom 10px;
+    }
+
+    .guests {
+        padding-top: 54px;
+        padding-bottom: 55px;
+    }
+    
+    .guests__heading {
+        margin-bottom: 12px;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .guests-title {
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+
+    .guests-about {
+        margin-bottom: 27px;
+        max-width: 320px;
+        font-size: 14px;
+    }
+
+    .guests-text {
+        max-width: 420px;
+    }
+
+    .guests-list-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .guests-item-content {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .guests-list-descr {
+        min-height: 352px;
+    }
+
+    .guests-btn {
+        padding: 7px 13px;
+    }
+
+    .playlists {
+        padding-top: 54px;
+        padding-bottom: 54px;
+    }
+
+    .playlists__heading {
+        font-size: 24px;
+    }
+
+    .disclaimer-title {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .disclaimer-copyright {
+        font-size: 12px;
+    }
+    
+    .playlists-list {
+        padding-top: 13px;
+        min-height: 100%;
+        max-width: 280px;
+    }
+
+    .playlists-list-item {
+        flex: 1 1 calc((100% / 2) - var(--gap));
+    }
+
+    .playlists-item-img {
+        width: 100%;
+    }
+
+    .playlists-item-country {
+        right: 0;
+        left: inherit;
+    }
+
+    .playlists-card {
+        flex-direction: column;
+        min-width: 113px;
+        min-height: 159px;
+    }
+
+    .playlists-item-content {
+        padding: 9px;
+        min-height: 46px;
+        width: 100%;
+    }
+
+    .playlists-item-name {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 100%;
+    }
+
+    .playlists-item-album {
+        font-size: 9px;
+        line-height: 100%;
+    }
+
+    .shop {
+        padding-top: 54px;
+        padding-bottom: 55px;
+    }
+
+    .shop-item {
+        flex-wrap: wrap;
+        gap: 37px;
+    }
+
+    .shop-item-pictures {
+        padding-top: 0;
+    }
+
+    .shop-item-marker {
+        top: 0;
+        left: 1px;
+    }
+
+    .shop-item-descr {
+        max-width: 280px;
+        min-height: 535px;
+    }
+
+    .shop__heading {
+        padding-bottom: 22px;
+        max-width: 280px;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .shop-item-text {
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .shop-item-text:first-child {
+        margin-bottom: 10px;
+    }
+
+    .shop-item-text:nth-child(2n) {
+        margin-bottom: 8px;
+    }
+
+    .shop-item-cost {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .shop-item__btn {
+        padding: 12px 13.5px;
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .about {
+        padding-top: 56px;
+        padding-bottom: 50px;
+        background-image: none;
+    }
+
+    .about__heading {
+        margin-bottom: 11px;
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .about-text, 
+    .about-title {
+        max-width: 280px;
+        font-size: 14px;
+    }
+
+    .about-title {
+        margin-bottom: 4px;
+    }
+
+    .about-content {
+        align-items: center;
+        gap: 25px;
+    }
+
+    .about-descr {
+        padding: 0;
+        background-image: none;
+    }
+
+    .about-item-descr {
+        padding-top: 13px;
+        min-height: 100px;
+    }
+
+    .about-item-name {
+        margin-bottom: 4px;
+        min-height: 36px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .about-item-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .about-forms {
+        padding-top: 5px;
+    }
+
+    .about-inputs {
+        flex-wrap: wrap;
+        gap: 31px;
+        max-width: 256px;
+    }
+
+    .about-textarea {
+        padding: 17px 23px;
+        width: 240px;
+        height: 150px;
+        border-radius: 20px;
+    }
+
+    .about-form textarea::placeholder {
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .about-inputs input::placeholder {
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .about-input-1,
+    .about-input-2 {
+        padding: 8px 23px;
+        width: 240px;
+        min-height: 50px;
+        border-radius: 40px;
+    }
+
+    .about-input-1 {
+        margin-bottom: 0;
+    }
+
+    .about-input-2 {
+        margin-bottom: 30px;
+    }
+
+    .about-input {
+        padding: 17px 44px;
+        margin-bottom: 18px;
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .about-checkbox-text {
+        padding-left: 21px;
+        font-size: 9px;
+        line-height: 100%;
+    }
+    
+    .about-checkbox-text::before,
+    .about-checkbox-text::after {
+        left: 0;
+        bottom: 0;
+        width: 13px;
+        height: 13px;
+    }
+
+    .footer__top {
+        padding-top: 54px;
+        padding-bottom: 33px;
+    }
+
+    .footer-top-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__logo {
+        margin-bottom: 16px;
+    }
+
+    .footer-content-left {
+        margin: 0 auto 10px;
+        align-items: initial;
+        min-height: 151px;
+    }
+
+    .footer-content-right {
+        width: 100%;
+    }
+
+    .footer-left-social {
+        justify-content: center;
+        gap: 26px;
+    }
+
+    .social-1 {
+        width: 30px;
+        height: 24px;
+    }
+
+    .social-2 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-3 {
+        width: 33px;
+        height: 33px;
+    }
+
+    .footer-top-nav {
+        max-width: 320px;
+    }
+
+    .footer-nav-list {
+        column-count: 2;
+        column-gap: 29px;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        -webkit-column-gap: 29px;
+        -moz-column-gap: 29px;
+    }
+
+    .footer-nav-item {
+        margin-bottom: 24px;
+        font-size: 12px;
+        line-height: 100%;
+    }
+
+    .footer-bottom {
+        padding-top: 21px;
+    }
+
+    .footer-bottom-text {
+        font-size: 12px;
+        line-height: 103.336%;
+    }
+}
