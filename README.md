@@ -1,4 +1,6 @@
 # Landing W-wave Radio
+Страница сайта - https://doctorveb292-w-wave-html-css.netlify.app
+
 Верстка макета-"W-wave Radio" с использованием только HTML и CSS.
 - использование Flexbox
 - адаптив под мобильные устройства,планшеты и пк с разными разрешениями
