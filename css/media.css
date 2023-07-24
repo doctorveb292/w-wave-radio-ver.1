@@ -1,24 +1,11 @@
-
-@media (max-width: 1680px) {
-
-    .header__container {
-        max-width: 1170px;
-        padding: 0 30px;
-    }
-
-    .broadcasts__container {
-        max-width: 1170px;
-        padding: 0 30px;
-    }
-}
-
 @media (max-width: 1281px) {
 
     .container {
-        max-width: 884px;
+        padding: 0 101px;
     }
 
     .header {
+        position: relative;
         padding: 0;
         border-bottom: 1px solid var(--light-gray-color);
     }
@@ -26,19 +13,18 @@
     .header__container {
         padding: 0;
         justify-content: space-between;
-        max-width: 884px;
     }
 
     .header__logo {
-        padding-top: 31px;
-        padding-left: 30px;
+        padding-top: 32px;
+        padding-left: 100px;
         padding-bottom: 29px;
     }
 
     .header__nav {
         margin-right: 0;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
         padding-top: 22px;
         padding-bottom: 19px;
         width: 100%;
@@ -48,7 +34,7 @@
 
     .header-btn {
         padding-top: 5px;
-        padding-right: 30px;
+        padding-right: 99px;
     }
 
     .nav-list {
@@ -66,6 +52,7 @@
 
     .hero__container {
         align-items: flex-start;
+        padding: 0 101px;
     }
 
     .hero-content-right {
@@ -78,7 +65,7 @@
 
     .hero-content-text {
         max-width: 539px;
-        margin-bottom: 21px;
+        margin-bottom: 19px;
     }
 
     .podcasts {
@@ -86,7 +73,7 @@
     }
 
     .podcasts__heading {
-        margin-bottom: 29px;
+        margin-bottom: 27px;
     }
 
     .podcasts-descr {
@@ -94,11 +81,11 @@
     }
 
     .broadcasts {
-        padding-top: 95px;
+        padding-top: 94px;
     }
 
     .broadcasts__container {
-        max-width: 884px;
+       padding: 0 99px;
     }
 
     .broadcast-content {
@@ -135,7 +122,7 @@
     }
 
     .broadcast-left-btn {
-        margin-bottom: 11px;
+        margin-bottom: 9px;
     }
 
     .guests {
@@ -167,6 +154,7 @@
     }
 
     .playlists {
+        padding-top: 96px;
         min-height: 895px;
     }
 
@@ -206,7 +194,7 @@
     }
 
     .shop {
-        padding-top: 95px;
+        padding-top: 93px;
     }
 
     .shop__heading {
@@ -237,7 +225,7 @@
     }
 
     .about-content {
-        gap: 29px;
+        gap: 31px;
     }
 
     .about-staff-item {
@@ -272,28 +260,26 @@
 @media (min-width: 767px) and (max-width: 993px) {
 
     .container {
-        max-width: 600px;
-        padding: 0 30px;
+        padding: 0 114px;
     }
 
     .header__container {
-        max-width: 600px;
         padding: 0;
     }
 
     .header__logo {
-        padding-left: 30px;
+        padding-left: 115px;
         padding-bottom: 29px;
         padding-top: 32px;
     }
 
     .header-btn {
-        padding-right: 30px;
+        padding-right: 113px;
     }
 
     .header__nav {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 115px;
+        padding-right: 115px;
         padding-top: 20px;
     }
 
@@ -344,13 +330,12 @@
     }
 
     .broadcasts__container {
-        max-width: 600px;
         min-height: 1199px;
         padding: 0;
     }
 
     .broadcast-left-heading {
-        padding-left: 30px;
+        padding-left: 114px;
     }
 
     .broadcast-content {
@@ -358,8 +343,8 @@
     }
 
     .broadcast-content-right {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 115px;
+        padding-right: 115px;
         padding-top: 121px;
     }
 
@@ -494,6 +479,10 @@
         margin-bottom: 31px;
     }
 
+    .about-input {
+        margin-bottom: 28px;
+    }
+
     .about-item-descr {
         padding-top: 31px;
     }
@@ -573,12 +562,7 @@
 @media (min-width: 577px) and (max-width: 767px) {
 
     .container {
-        max-width: 767px;
         padding: 0 30px;
-    }
-
-    .header__container {
-        max-width: 767px;
     }
 
     .header__logo {
@@ -610,6 +594,10 @@
         padding-top: 40px;
     }
 
+    .hero__container {
+        padding: 0 30px;
+    }
+
     .hero-content-left {
         display: none;
     }
@@ -636,7 +624,6 @@
     }
 
     .broadcasts__container {
-        max-width: 767px;
         padding: 0;
     }
 
@@ -861,17 +848,19 @@
 @media (min-width: 319px) and (max-width: 576px) {
 
     .container {
-        max-width: 316px;
-        padding: 0 30px;
+        padding: 0 32px;
+    }
+
+    .header::before {
+        bottom: 47px;
     }
 
     .header__container {
-        max-width: 316px;
         justify-content: flex-end;
     }
 
     .header__logo {
-        padding-left: 30px;
+        padding-left: 32px;
         padding-bottom: 16px;
         padding-top: 20px;
     }
@@ -881,7 +870,7 @@
     }
 
     .header__nav {
-        padding: 7px 30px 5px;
+        padding: 7px 32px 5px;
     }
 
     .nav-list {
@@ -984,11 +973,10 @@
 
     .broadcasts {
         padding-top: 56px;
-        padding-bottom: 43px;
+        padding-bottom: 44px;
     }
 
     .broadcasts__container {
-        max-width: 316px;
         padding: 0;
     }
 
@@ -1005,7 +993,7 @@
     }
 
     .broadcast-left-heading {
-        padding-left: 30px;
+        padding-left: 32px;
         font-size: 24px;
         line-height: 100%;
     }
@@ -1032,8 +1020,8 @@
     }
 
     .broadcast-content-right {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 32px;
+        padding-right: 32px;
         padding-top: 29px;
     }
 
@@ -1073,7 +1061,7 @@
     }
 
     .broadcast-link-span {
-        margin-right: 4px;
+        margin-right: 1px;
         font-size: 12px;
         line-height: 12px;
         color: var(--main-btn-color);
@@ -1157,7 +1145,7 @@
     }
 
     .playlists {
-        padding-top: 54px;
+        padding-top: 55px;
         padding-bottom: 54px;
     }
 
@@ -1467,6 +1455,10 @@
     .header__container {
         max-width: 320px;
         justify-content: flex-end;
+    }
+
+    .header::before {
+        bottom: 47px;
     }
 
     .header__logo {
